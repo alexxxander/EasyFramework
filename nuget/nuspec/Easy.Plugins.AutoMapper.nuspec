@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Easy.Plugins.AutoMapper</id>
+        <version>1.0.4811</version>
+        <title />
+        <authors>Henrique Riccio e Colaboradores</authors>
+        <owners>Henrique Riccio e Colaboradores</owners>
+        <licenseUrl>https://raw.github.com/Easy/Easy/master/LICENSE.txt</licenseUrl>
+        <projectUrl>https://github.com/Easy</projectUrl>
+        <iconUrl>http://s.gravatar.com/avatar/e3e660b0916a4de7b15ef41361ee9f8e</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Plugin do AutoMapper para o mecanismo de tradução do Easy</description>
+        <summary>Plugin do AutoMapper para o mecanismo de tradução do Easy</summary>
+        <copyright>Copyright (c) 2010 Henrique Riccio</copyright>
+        <language>pt-BR</language>
+        <tags>Easy plugin automapper</tags>
+        <dependencies>
+            <group targetFramework=".NETFramework4.0">
+                <dependency id="AutoMapper" version="2.2.1" />
+                <dependency id="Easy" version="1.0.4811" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="src\Easy.Plugins.AutoMapper\bin\Debug\Easy.Plugins.AutoMapper.dll" target="lib\net40\Easy.Plugins.AutoMapper.dll" />
+    </files>
+</package>

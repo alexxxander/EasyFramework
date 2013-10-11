@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Easy</id>
+        <version>1.0.4811</version>
+        <title />
+        <authors>Henrique Riccio e Colaboradores</authors>
+        <owners>Henrique Riccio e Colaboradores</owners>
+        <licenseUrl>https://raw.github.com/Easy/Easy/master/LICENSE.txt</licenseUrl>
+        <projectUrl>https://github.com/Easy</projectUrl>
+        <iconUrl>http://s.gravatar.com/avatar/e3e660b0916a4de7b15ef41361ee9f8e</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Um framework simples e leve para acelerar a construção de API's</description>
+        <summary>Um framework simples e leve para acelerar a construção de API's</summary>
+        <copyright>Easy</copyright>
+        <language>pt-BR</language>
+        <tags>framework api</tags>
+    </metadata>
+    <files>
+        <file src="src\Easy\bin\Debug\Easy.dll" target="lib\net40\Easy.dll" />
+    </files>
+</package>
